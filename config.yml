@@ -3,8 +3,8 @@ network: ParticleTransformer
 data:
   # The ROOT file(s) and tree
   files:
-    - path/to/your_file.root
-      tree_name: Events  # change this if your TTree has a different name
+    - path: ../../file.root
+      tree_name: tree  # change this if your TTree has a different name
 
   # How many jets per batch to load
   batch_size: 512
